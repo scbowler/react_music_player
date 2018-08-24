@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="player container text-center">
+        <div class="row">
+            <i class="fas fa-chevron-left fa-2x back-button"></i>
+        </div>
+        <div class="song">
+            <h1 class="name">Song's Name</h1>
+            <h3 class="artist">Artist Name</h3>
+        </div>
+        <div class="display-area">
+            <canvas></canvas>
+            <div class="comments-container">Comment Container</div>
+            <div class="time"></div>
+        </div>
+        <div class="playarea d-flex justify-content-around">
+            <i class="fas fa-volume-up fa-3x unmute"></i>
+            <i class="fas fa-volume-off fa-3x mute"></i>
+            <i class="fas fa-play fa-3x play"></i>
+            <i class="fas fa-pause fa-3x pause"></i>
+        </div>
+        <form>
+            <div class="form-group">
+                <input type="email" class="form-control" id='comment-input' placeholder="Comment Here">
+                <div class='comment-button'>
+                    <i class="fas fa-comment fa-2x"></i>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+</body>
+
+</html>
